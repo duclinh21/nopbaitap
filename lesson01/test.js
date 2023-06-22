@@ -119,4 +119,6 @@ function myApp  (arrApp)  {
 const arrApp = ["face", "zalo", "face", "gmail", "zalo", "zalo"];
 const countMap = myApp(arrApp);
 console.log(countMap);
+//bai8
+
 

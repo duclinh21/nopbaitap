@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainHp {
+  display: flex;
+  width: 832px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  
+}
+
+.logohp {
+  background-color: #FAF096;
+  width: 50%;
+  height: 395px;
+  color: #000;
+  text-align: center;
+  font-size: 68px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.logohp p {
+  margin-top: 68px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login {
+  text-align: center;
+  width: 50%;
+}
+
+.logoimg {
+  padding-top: 0;
+  margin-top: 30px;
+}
+
+
+.login p {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 68px;
+
+
+}
+
+.form-item {
+  border-style: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  color: #757575;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.login-form {
+  margin-top: 30px;
+
+}
+
+.register {
+  background-color: #FFD333;
+  width: 295.718px;
+  height: 37px;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background-color: #FFD333;
+}
+
+.login a {
+  text-decoration: none;
+  color: #646464;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
