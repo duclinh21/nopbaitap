@@ -6,9 +6,11 @@ const Homepage = () => {
           <p>Shop App</p>
           <img src="./Vector.png" className="logoimg"/>
         </div>
+         <button className="X">X</button>
         <div className="login">
             <p>Welcome to Shop App</p>
             <form className="login-form">
+           
                     <div className="form">
                         <input type="text" className="form-item" name="userName" placeholder="User Name" />
                     </div>
@@ -24,6 +26,7 @@ const Homepage = () => {
                     <button className="register" type="submit" >Register</button>
                 </form>
                 <a href="#">Login</a>
+                
         </div>
       </div>
       </div>

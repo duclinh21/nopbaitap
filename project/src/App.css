@@ -57,12 +57,15 @@
 
 .form-item {
   border-style: none;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid  #000;;
   margin-bottom: 20px;
   color: #757575;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-
+  /* padding-left: 70px; */
+  width: 295px;
+  
+  
 }
 
 .login-form {
@@ -99,5 +102,25 @@
   justify-content: center;
   align-items: center;
   height: 100vh; 
+}
+
+.X{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 790px;
+  top: 8px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  float: right;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mainHp{
+  position: relative;
 }
 
