@@ -1,6 +1,7 @@
 const Homepage = () => {
     return (
-      <div className ="mainHp">
+      <div className="container">
+        <div className ="mainHp">
         <div className="logohp">
           <p>Shop App</p>
           <img src="./Vector.png" className="logoimg"/>
@@ -24,6 +25,7 @@ const Homepage = () => {
                 </form>
                 <a href="#">Login</a>
         </div>
+      </div>
       </div>
     );
   };

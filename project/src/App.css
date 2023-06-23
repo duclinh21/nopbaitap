@@ -8,7 +8,9 @@
   width: 832px;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 10px;
+  border-radius: 20px;
+
+  
   
 }
 
@@ -21,6 +23,7 @@
   font-size: 68px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  border-radius: 20px 0 0 20px;
 }
 
 .logohp p {
@@ -36,6 +39,9 @@
 .logoimg {
   padding-top: 0;
   margin-top: 30px;
+  opacity: 2;
+  display: block;
+  margin-left: 142px;
 }
 
 
@@ -75,6 +81,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   background-color: #FFD333;
+  border:none;
 }
 
 .login a {
@@ -84,6 +91,13 @@
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  margin-top: 330px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
 
