@@ -1,0 +1,29 @@
+
+.benifit{
+    width: 279px;
+    height: 94px;
+    background-color: #DFD8D8 ;
+    display: flex;
+    border-radius: 8px;
+    border: #F8F8F8 solid;
+   
+}
+.img-benifit{
+    display: block;
+    width: 41.13px;
+    height: 30px;
+    padding:30px 20px;
+}
+.content-benifit{
+    padding:10px 24px;
+}
+.content-benifit p{
+    font-family: 'arial';
+    font-size: 24px;
+    font-weight: 700;
+}
+.content-benifit h6{
+    font-family: 'arial';
+    font-size: 14px;
+    font-weight: 400;
+}

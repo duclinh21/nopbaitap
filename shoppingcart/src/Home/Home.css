@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    width: 1440px;
+    height: 38px;
+    background-color: #F0E9E9;
+}
+
+.top-bar ul {
+    list-style: none;
+    padding-left: 163px;
+}
+
+.top-bar ul li {
+    float: left;
+    line-height: 38px;
+    padding: 0 15px;
+}
+
+.top-bar ul li a {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.main-bar {
+    width: 1440px;
+    height: 123px;
+    background-color: #FFD333;
+    display: flex;
+
+
+
+}
+
+.main-bar p {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Red Rose';
+    line-height: 123px;
+    padding-left: 163px;
+    width: 198px;
+    height: 57px;
+}
+
+.search {
+    background-color: #C4C4C4;
+    width: 748px;
+    height: 51px;
+    margin-top: 34px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.search-item {
+    background-color: #C4C4C4;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.img-menu {
+    display: block;
+    width: 30px;
+    height: 25px;
+    margin: 14px 5px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+.img-line {
+    display: block;
+    width: 1px;
+    margin: 0 8px;
+}
+
+.img-search {
+    display: block;
+    width: 29.45px;
+    height: 28.69px;
+    margin: 12px 16px;
+}
+
+.img-cart1 {
+    display: block;
+    width: 39.55px;
+    height: 42.82px;
+    margin: 37px 35px;
+}
+
+.img-user {
+    display: block;
+    width: 37.87px;
+    height: 40.58px;
+    margin: 35px 0;
+}
+
+.selecter-1 {
+    width: 1152px;
+    height: 628px;
+    background-color: white;
+    margin: 10px auto;
+    display: flex;
+}
+
+.nav {
+    width: 280px;
+    height: 628px;
+    background-color: #3D464D;
+}
+
+.categories {
+    display: flex;
+    padding: 22px 0;
+}
+
+.img-menu2 {
+    display: block;
+    width: 30.89px;
+    height: 25.43px;
+    margin: 5px 17px;
+}
+
+.categories h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'arial';
+    width: 176px;
+    height: 39px;
+
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 14px 22px;
+    display: flex;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'arial';
+    font-size: 22px;
+    display: flex;
+}
+
+.img-vetor2 {
+    display: block;
+    width: 8.03px;
+    height: 20px;
+    padding-top: 3px;
+    position: absolute;
+    right: 10px;
+}
+
+.img-product {
+    padding-left: 10px;
+}
+
+.img-item1 {
+    display: block;
+    width:843px;
+    height:386px;
+}
+.img-item{
+    display: block;
+    width: 280px;
+    height: 224px;
+}
+.img-layout{
+    display: grid;
+    max-width: 862px;
+    margin: 0 auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding-top:10px;
+}
+.list-benifit{
+    display: grid;
+    margin: 0 auto;
+    width: 1151px;
+    height: 94px;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
+.profile-banner{
+    margin: 20px auto;
+    display: flex;
+    width: 1151px;
+    height:43px;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.profile-banner p{
+    line-height: 43px;
+    font-family: 'arial';
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+.profile-banner p a{
+    text-decoration: none;
+    color: #000000;
+}
+.profile-banner h5{
+    width: 131px;
+    height: 31px;
+    border-radius: 30px;
+    border: 1px #F0E36A solid;
+    position: absolute;
+    left: 950px;
+    top:6px;
+}
+
+.profile-banner h5 a{
+    /* line-height: 43px; */
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    padding:6px 14px;
+}
+.list-card{
+    display: grid;
+    margin: 0 auto;
+    width: 1151px;
+    height: 500px;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
